@@ -230,6 +230,7 @@ func (r *Reactor) OnStart() error {
 }
 ```
 下图为从客户端提交的交易添加到交易池的过程：
+![](https://github.com/bigzoro/tendermint_analysis/blob/main/images/%E4%BA%A4%E6%98%93%E6%B5%81%E7%A8%8B.jpg)
 
 
 
