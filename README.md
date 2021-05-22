@@ -109,7 +109,7 @@ Tendermint的peer都以公开密钥的形式保持长期持久的身份证明。
 
 
 
-[Tendermint P2P网络源码分析](./sourceCodeAnaylsis/P2P_analysis.md)
+[Tendermint P2P网络源码分析](https://github.com/bigzoro/tendermint_analysis/blob/main/sourceCodeAnalysis/P2P_analysis.md)
 
 ## Mempool
 
