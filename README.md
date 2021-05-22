@@ -57,13 +57,13 @@ Tendermint另一个重要的技术组件是ABCI，由于Tendermint对共识引�
 
 架构图为：
 
-![](D:\BlockChain\note\images\Tendermint架构.PNG)
+![](https://github.com/bigzoro/tendermint_analysis/blob/main/images/Tendermint%E6%9E%B6%E6%9E%84.PNG)
 
 再简单来讲，Tendermint可以理解为一个模块化的区块链软件框架，支持开发者个性化定制自己的区块链，而又不需要考虑共识算法以及网络传输的实现。
 
 Tendermint的工作流程如下图所示：
 
-![](D:\BlockChain\note\images\交易流程.jpg)
+![](https://github.com/bigzoro/tendermint_analysis/blob/main/images/%E4%BA%A4%E6%98%93%E6%B5%81%E7%A8%8B.jpg)
 
 ## ABCI
 
@@ -115,11 +115,11 @@ Tendermint的peer都以公开密钥的形式保持长期持久的身份证明。
 
 内存池的作用简单来说就是保存从其他peer或者自身受到的还未被打包的交易。并且对交易进行排序
 
-[mempool源码分析]()
+[mempool源码分析](https://github.com/bigzoro/tendermint_analysis/blob/main/sourceCodeAnalysis/Mempool_analysis.md)
 
 ## State
 
-state就是代表了最新提交区块的描述，主要用于区块的验证。具体可查看：[State源码分析]()
+state就是代表了最新提交区块的描述，主要用于区块的验证。具体可查看：[State源码分析](https://github.com/bigzoro/tendermint_analysis/blob/main/sourceCodeAnalysis/State_analysis.md)
 
 ## Consensus
 
@@ -131,15 +131,10 @@ tendermint同时是拜占庭容错的（Byzantine Fault Tolerance），因此对
 
 tendermint共识机制的另一个特点就是其共识的最终确定性：一旦达成共识就是真的达成共识，而不是像比特币或者以太坊的共识是一种概率性质的确定性，还有可能在将来某个时刻失效。因此在tendermint中不会出现区块链分叉的情况
 
-[consensus源码分析]()
+[consensus源码分析](https://github.com/bigzoro/tendermint_analysis/blob/main/sourceCodeAnalysis/consensus_analysis.md)
 
 ## KVStore案例分析
 
-[KVStore案例分析]()
+[KVStore案例分析](https://github.com/bigzoro/tendermint_analysis/blob/main/sourceCodeAnalysis/KVStore_analysis.md)
 
-
-
-
-
-## 
 
